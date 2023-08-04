@@ -54,5 +54,4 @@ public class TC3_ImageInArrivals {
 
         Driver.closeDriver();
     }
-
 }
