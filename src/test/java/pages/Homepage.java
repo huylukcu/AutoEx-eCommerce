@@ -40,6 +40,18 @@ public class Homepage {
     @FindBy(xpath = "//div[@class='themify_builder_sub_row clearfix gutter-default   sub_row_1-0-2']/div[3]//h3")
     public WebElement itemInImage3;
 
+    @FindBy(xpath = "//img[@title='Mastering JavaScript']")
+    public WebElement image3LessThan450;
+
+    @FindBy(css = "li[class='description_tab active']")
+    public WebElement descriptionButton;
+
+    @FindBy(xpath = "//div[@id='tab-description']/p")
+    public WebElement descriptionText;
+    @FindBy(xpath = "//span[@class='posted_in']/a")
+    public WebElement categoryOfBook;
+
+
 
 
 
